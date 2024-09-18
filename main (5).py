@@ -98,4 +98,10 @@ first_one = Eleven(7,15)
 first_one.get()
 first_one.sum()
 
+print("----------------------------------------------------------")
+
+@property
+def __init__(self,params):
+    self.params = params
+    
             
