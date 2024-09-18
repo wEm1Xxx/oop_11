@@ -32,23 +32,6 @@ first_one.sum()
 
 print("-------------------------------------------------------")
 
-class Six: #Задание 6
-    def __init__(self, fild_one, fild_two):
-        self.fild_one = fild_one
-        self.fild_two = fild_two
-    def get(self):
-        print("Кол-во минут -", self.fild_one)
-        print("Кол-во секунд -", self.fild_two)
-
-    def sum(self):
-        print("Общее кол-во секунд = ", (self.fild_one * 60) + self.fild_two)
-
-first_one = Six(3,15)
-first_one.get()
-first_one.sum()
-
-print("-------------------------------------------------------")
-
 class Seven: #Задание 7
     def __init__(self, fild_one, fild_two):
         self.fild_one = fild_one
